@@ -281,9 +281,14 @@
     },
     {
         "id": 36,
-        "tema": "Raonament Espacial (sense imatge)",
-        "pregunta": "Si un cub té 6 cares, quantes cares tindran 3 cubs units?",
-        "opcions": ["6", "9", "12", "18"],
+        "tema": "Raonament Espacial (imagina la figura)",
+        "pregunta": "Un cub individual té 6 cares. Si unim 3 d'aquests cubs, enganxant-los cara amb cara per formar una única peça sòlida, quantes cares externes visibles tindrà la figura resultant?",
+        "opcions": [
+            "18 cares",
+            "16 cares",
+            "14 cares",
+            "12 cares"
+        ],
         "resposta_correcta": 2,
         "imatge_url": null
     },
