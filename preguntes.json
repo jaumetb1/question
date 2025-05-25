@@ -297,7 +297,7 @@
         "tema": "Matemàtiques",
         "pregunta": "Quin és el resultat de 100 - 25 x 2?",
         "opcions": ["50", "75", "70", "80"],
-        "resposta_correcta": 1,
+        "resposta_correcta": 0,
         "imatge_url": null
     },
     {
