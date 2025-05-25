@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "tema": "Matemàtiques",
+        "pregunta": "Si un tren viatja a 60 km/h, quina distància recorrerà en 2 hores i 30 minuts?",
+        "opcions": ["120 km", "150 km", "180 km", "100 km"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 2,
+        "tema": "Llenguatge",
+        "pregunta": "Quin és l'antònim de la paraula 'efímer'?",
+        "opcions": ["Breu", "Passatger", "Perdurable", "Instantani"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 3,
+        "tema": "Lògica",
+        "pregunta": "Si tots els gats tenen cua i en Mixu és un gat, aleshores:",
+        "opcions": ["En Mixu potser no té cua", "En Mixu segur que té cua", "Alguns gats no tenen cua", "En Mixu és un gos"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 4,
+        "tema": "Imatges",
+        "pregunta": "Quina figura continua la sèrie?",
+        "opcions": ["Opció A", "Opció B", "Opció C", "Opció D"],
+        "resposta_correcta": 0,
+        "imatge_url": "https://via.placeholder.com/300x150.png?text=Sèrie+Figures+Pregunta"
+    },
+    {
+        "id": 5,
+        "tema": "Coneixement General",
+        "pregunta": "Quina és la capital de França?",
+        "opcions": ["Berlín", "Londres", "París", "Roma"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 6,
+        "tema": "Matemàtiques",
+        "pregunta": "Quin número segueix la seqüència: 2, 4, 8, 16, ...?",
+        "opcions": ["20", "24", "32", "64"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 7,
+        "tema": "Llenguatge",
+        "pregunta": "La paraula 'casa' és un:",
+        "opcions": ["Verb", "Adjectiu", "Substantiu", "Adverbi"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 8,
+        "tema": "Lògica",
+        "pregunta": "Un pagès té 17 ovelles. Totes menys 9 moren. Quantes ovelles vives li queden?",
+        "opcions": ["8", "9", "17", "26"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 9,
+        "tema": "Imatges",
+        "pregunta": "Quina d'aquestes formes és diferent de les altres?",
+        "opcions": ["Cercle", "Quadrat", "Triangle", "Rectangle"],
+        "resposta_correcta": 0,
+        "imatge_url": "https://via.placeholder.com/300x150.png?text=Figura+Diferent"
+    },
+    {
+        "id": 10,
+        "tema": "Matemàtiques",
+        "pregunta": "Si 5 gats cacen 5 ratolins en 5 minuts, quants gats es necessiten per caçar 100 ratolins en 100 minuts?",
+        "opcions": ["100 gats", "50 gats", "10 gats", "5 gats"],
+        "resposta_correcta": 3,
+        "imatge_url": null
+    },
+    {
+        "id": 11,
+        "tema": "Llenguatge",
+        "pregunta": "Què significa l'expressió 'fer mans i mànigues'?",
+        "opcions": ["Treballar poc", "Esforçar-se molt", "Rentar-se les mans", "Cosir roba"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 12,
+        "tema": "Lògica",
+        "pregunta": "En una cursa, avances el segon. En quina posició quedes?",
+        "opcions": ["Primer", "Segon", "Tercer", "Últim"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 13,
+        "tema": "Coneixement General",
+        "pregunta": "Quants dies té un any de traspàs?",
+        "opcions": ["364", "365", "366", "360"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 14,
+        "tema": "Matemàtiques",
+        "pregunta": "Un llibre costa 20€. Si té un descompte del 25%, quin és el preu final?",
+        "opcions": ["10€", "15€", "18€", "5€"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 15,
+        "tema": "Llenguatge",
+        "pregunta": "Com s'anomena una persona que estudia els insectes?",
+        "opcions": ["Ornitòleg", "Geòleg", "Entomòleg", "Biòleg"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 16,
+        "tema": "Lògica",
+        "pregunta": "Si ahir va ser dilluns, quin dia serà demà passat?",
+        "opcions": ["Dimecres", "Dijous", "Dimarts", "Divendres"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 17,
+        "tema": "Imatges",
+        "pregunta": "Quina ombra correspon a la figura?",
+        "opcions": ["Ombra A", "Ombra B", "Ombra C", "Ombra D"],
+        "resposta_correcta": 2,
+        "imatge_url": "https://via.placeholder.com/300x150.png?text=Figura+i+Ombres"
+    },
+    {
+        "id": 18,
+        "tema": "Matemàtiques",
+        "pregunta": "Quina fracció és equivalent a 0.5?",
+        "opcions": ["1/4", "1/2", "3/4", "2/5"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 19,
+        "tema": "Llenguatge",
+        "pregunta": "Quina d'aquestes paraules està mal escrita?",
+        "opcions": ["Consciència", "Existència", "Excepsional", "Impressió"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 20,
+        "tema": "Lògica",
+        "pregunta": "Què pesa més, un quilo de plomes o un quilo de ferro?",
+        "opcions": ["El ferro", "Les plomes", "Pesen el mateix", "Depèn del volum"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    }
+]
