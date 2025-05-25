@@ -25,11 +25,11 @@
     },
     {
         "id": 4,
-        "tema": "Imatges",
-        "pregunta": "Quina figura continua la sèrie?",
-        "opcions": ["Opció A", "Opció B", "Opció C", "Opció D"],
-        "resposta_correcta": 0,
-        "imatge_url": "https://via.placeholder.com/300x150.png?text=Sèrie+Figures+Pregunta"
+        "tema": "Lògica Visual (sense imatge)",
+        "pregunta": "Imagina una sèrie: un cercle, un quadrat, un cercle, un quadrat. Quina figura seguiria?",
+        "opcions": ["Un triangle", "Un cercle", "Un quadrat", "Un rectangle"],
+        "resposta_correcta": 1,
+        "imatge_url": null
     },
     {
         "id": 5,
@@ -65,11 +65,11 @@
     },
     {
         "id": 9,
-        "tema": "Imatges",
-        "pregunta": "Quina d'aquestes formes és diferent de les altres?",
-        "opcions": ["Cercle", "Quadrat", "Triangle", "Rectangle"],
-        "resposta_correcta": 0,
-        "imatge_url": "https://via.placeholder.com/300x150.png?text=Figura+Diferent"
+        "tema": "Raonament Abstracte (sense imatge)",
+        "pregunta": "Si tots els 'blips' són 'blops' i alguns 'blops' són 'blups', podem afirmar que tots els 'blips' són 'blups'?",
+        "opcions": ["Sí, sempre", "No, mai", "Potser, de vegades", "No té sentit"],
+        "resposta_correcta": 2,
+        "imatge_url": null
     },
     {
         "id": 10,
@@ -129,11 +129,11 @@
     },
     {
         "id": 17,
-        "tema": "Imatges",
-        "pregunta": "Quina ombra correspon a la figura?",
-        "opcions": ["Ombra A", "Ombra B", "Ombra C", "Ombra D"],
-        "resposta_correcta": 2,
-        "imatge_url": "https://via.placeholder.com/300x150.png?text=Figura+i+Ombres"
+        "tema": "Raonament Espacial (sense imatge)",
+        "pregunta": "Imagina un cub. Si el pintes de blau per fora i després el talles en 27 cubs més petits iguals, quants dels cubs petits tindran només una cara pintada de blau?",
+        "opcions": ["4", "6", "8", "12"],
+        "resposta_correcta": 1,
+        "imatge_url": null
     },
     {
         "id": 18,
@@ -159,19 +159,123 @@
         "resposta_correcta": 2,
         "imatge_url": null
     },
-      {
+    {
         "id": 21,
-        "tema": "Lògica i Raonament",
-        "pregunta": "Un cargol és al fons d'un pou de 10 metres. Cada dia puja 3 metres i cada nit rellisca 2 metres. Quants dies trigarà a sortir del pou?",
-        "opcions": ["10 dies","7 dies", "8 dies","9 dies"],
-        "resposta_correcta":2,
-        "imatge_url":null
-  },
+        "tema": "Matemàtiques",
+        "pregunta": "Quant és 15 x 3 - 5?",
+        "opcions": ["30", "35", "40", "45"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
     {
         "id": 22,
         "tema": "Llenguatge",
-        "pregunta": "Quina paraula no correspon al mateix grup?",
-        "opcions": ["Gat", "Gos", "Gall", "Elefant"],
+        "pregunta": "Quin d'aquests mots és un anagrama de 'ROMA'?",
+        "opcions": ["AMOR", "RAMO", "MORA", "Totes les anteriors són anagrames"],
+        "resposta_correcta": 3,
+        "imatge_url": null
+    },
+    {
+        "id": 23,
+        "tema": "Lògica",
+        "pregunta": "Quin element no pertany al grup: Poma, Taronja, Plàtan, Cadira?",
+        "opcions": ["Poma", "Taronja", "Plàtan", "Cadira"],
+        "resposta_correcta": 3,
+        "imatge_url": null
+    },
+    {
+        "id": 24,
+        "tema": "Coneixement General",
+        "pregunta": "Quin gas és essencial per a la respiració humana?",
+        "opcions": ["Nitrogen", "Oxigen", "Diòxid de Carboni", "Heli"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 25,
+        "tema": "Matemàtiques",
+        "pregunta": "Quina xifra continua la sèrie: 1, 1, 2, 3, 5, 8, ...?",
+        "opcions": ["10", "11", "12", "13"],
+        "resposta_correcta": 3,
+        "imatge_url": null
+    },
+    {
+        "id": 26,
+        "tema": "Llenguatge",
+        "pregunta": "Com acaba el refrany: 'A qui matina, ...'?",
+        "opcions": ["...se li fa tard.", "...Déu l'ajuda.", "...troba feina.", "...dorm poc."],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 27,
+        "tema": "Lògica",
+        "pregunta": "La Maria és més alta que en Joan. En Joan és més alt que en Pere. Qui és el més baix?",
+        "opcions": ["Maria", "Joan", "Pere", "No es pot saber"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 28,
+        "tema": "Coneixement General",
+        "pregunta": "Quin és el riu més llarg del món?",
+        "opcions": ["Amazones", "Nil", "Mississipí", "Iang-Tsé"],
+        "resposta_correcta": 0,
+        "imatge_url": null
+    },
+    {
+        "id": 29,
+        "tema": "Matemàtiques",
+        "pregunta": "Quants costats té un hexàgon?",
+        "opcions": ["4", "5", "6", "8"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 30,
+        "tema": "Llenguatge",
+        "pregunta": "Quina paraula està escrita correctament?",
+        "opcions": ["Examen", "Exàmen", "Ecsamen", "Egzamen"],
+        "resposta_correcta": 0,
+        "imatge_url": null
+    },
+    {
+        "id": 31,
+        "tema": "Lògica",
+        "pregunta": "Si demà passat és divendres, quin dia va ser ahir?",
+        "opcions": ["Dilluns", "Dimarts", "Dimecres", "Diumenge"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 32,
+        "tema": "Coneixement General",
+        "pregunta": "En quin any va començar la Primera Guerra Mundial?",
+        "opcions": ["1905", "1914", "1918", "1939"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 33,
+        "tema": "Matemàtiques",
+        "pregunta": "Un cotxe recorre 100km en 2 hores. Quina és la seva velocitat mitjana?",
+        "opcions": ["25 km/h", "50 km/h", "100 km/h", "200 km/h"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 34,
+        "tema": "Llenguatge",
+        "pregunta": "Quina d'aquestes paraules és un palíndrom (es llegeix igual d'esquerra a dreta que de dreta a esquerra)?",
+        "opcions": ["CASA", "RADAR", "AMIC", "COTXE"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 35,
+        "tema": "Lògica",
+        "pregunta": "Tots els ocells tenen plomes. Un canari és un ocell. Per tant, un canari...",
+        "opcions": ["...potser no té plomes.", "...no té plomes.", "...té plomes.", "...és un mamífer."],
         "resposta_correcta": 2,
         "imatge_url": null
     }
