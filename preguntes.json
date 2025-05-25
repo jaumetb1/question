@@ -164,15 +164,15 @@
         "tema": "Lògica i Raonament",
         "pregunta": "Un cargol és al fons d'un pou de 10 metres. Cada dia puja 3 metres i cada nit rellisca 2 metres. Quants dies trigarà a sortir del pou?",
         "opcions": ["10 dies","7 dies", "8 dies","9 dies"],
-        "resposta_correcte":2,
+        "resposta_correcta":2,
         "imatge_url":null
   },
     {
         "id": 22,
         "tema": "Llenguatge",
         "pregunta": "Quina paraula no correspon al mateix grup?",
-        "opcions": ["Taula", "Cadira", "Armari", "Porta"],
-        "resposta_correcta": 3,
+        "opcions": ["Gat", "Gos", "Gall", "Elefant"],
+        "resposta_correcta": 2,
         "imatge_url": null
     }
 ]
