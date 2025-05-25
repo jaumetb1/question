@@ -158,5 +158,13 @@
         "opcions": ["El ferro", "Les plomes", "Pesen el mateix", "Depèn del volum"],
         "resposta_correcta": 2,
         "imatge_url": null
-    }
+    },
+      {
+    "id": 21,
+    "tema": "Lògica i Raonament",
+    "pregunta": "Un cargol és al fons d'un pou de 10 metres. Cada dia puja 3 metres i cada nit rellisca 2 metres. Quants dies trigarà a sortir del pou?",
+    "opcions": ["10 dies","7 dies", "8 dies","9 dies"],
+          "resposta_correcte":2,
+          "imatge_url":null
+  }
 ]
