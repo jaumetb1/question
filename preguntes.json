@@ -266,7 +266,7 @@
     {
         "id": 34,
         "tema": "Llenguatge",
-        "pregunta": "Quina d'aquestes paraules és un palíndrom (es llegeix igual d'esquerra a dreta que de dreta a esquerra)?",
+        "pregunta": "Quina d'aquestes paraules és un palíndrom ?",
         "opcions": ["CASA", "RADAR", "AMIC", "COTXE"],
         "resposta_correcta": 1,
         "imatge_url": null
@@ -278,5 +278,46 @@
         "opcions": ["...potser no té plomes.", "...no té plomes.", "...té plomes.", "...és un mamífer."],
         "resposta_correcta": 2,
         "imatge_url": null
+    },
+    {
+        "id": 36,
+        "tema": "Raonament Espacial (sense imatge)",
+        "pregunta": "Si un cub té 6 cares, quantes cares tindran 3 cubs units?",
+        "opcions": ["6", "9", "12", "18"],
+        "resposta_correcta": 2,
+        "imatge_url": null
+    },
+    {
+        "id": 37,
+        "tema": "Matemàtiques",
+        "pregunta": "Quin és el resultat de 100 - 25 x 2?",
+        "opcions": ["50", "75", "70", "80"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 38,
+        "tema": "Llenguatge",
+        "pregunta": "Quina d'aquestes paraules és un sinònim de 'alegre'?",
+        "opcions": ["Trist", "Feliç", "Enutjat", "Sorpresa"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 39,
+        "tema": "Lògica",
+        "pregunta": "Si tots els estudiants són intel·ligents i la Paula és estudiant, aleshores:",
+        "opcions": ["La Paula no és intel·ligent", "La Paula és intel·ligent", "Alguns estudiants no són intel·ligents", "La Paula és professora"],
+        "resposta_correcta": 1,
+        "imatge_url": null
+    },
+    {
+        "id": 40,
+        "tema": "Coneixement General",
+        "pregunta": "Quina és la moneda oficial del Japó?",
+        "opcions": ["Dòlar", "Euro", "Ien", "Won"],
+        "resposta_correcta": 2,
+        "imatge_url": null
     }
+
 ]
