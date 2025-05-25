@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qüestionari d'Intel·ligència</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Qüestionari d'Intel·ligència</h1>
+
+        <div id="pregunta-seccio">
+            <div id="pregunta-info">
+                Pregunta <span id="pregunta-actual-num">1</span> de <span id="total-preguntes">20</span>
+                (<span id="tema-pregunta">Tema</span>)
+            </div>
+            <h2 id="pregunta-text">Carregant pregunta...</h2>
+            <img id="pregunta-imatge" src="" alt="Imatge de la pregunta" class="ocult">
+            <div id="opcions-container">
+                <!-- Les opcions es generaran aquí amb JavaScript -->
+            </div>
+            <div id="feedback"></div>
+            <button id="seguent-btn" class="ocult">Següent Pregunta</button>
+        </div>
+
+        <div id="resultats-container" class="ocult">
+            <h2>Resultats del Qüestionari</h2>
+            <p id="puntuacio-final">Has obtingut X de Y punts.</p>
+            <p id="missatge-final">Molt bé!</p>
+            <button id="reiniciar-btn">Tornar a començar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
