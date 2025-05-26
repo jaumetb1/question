@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const preguntaImatgeElem = document.getElementById('pregunta-imatge');
     const opcionsContainerElem = document.getElementById('opcions-container');
     const feedbackElem = document.getElementById('feedback');
+    const feedbackerror=document.getElementById('feedbackerror');
     const seguentBtn = document.getElementById('seguent-btn');
     
     const preguntaSeccioElem = document.getElementById('pregunta-seccio');
@@ -12,13 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const reiniciarBtn = document.getElementById('reiniciar-btn');
 
     const preguntaActualNumElem = document.getElementById('pregunta-actual-num');
+    const dificultatPreguntaElem=document.getElementById('dificultat-pregunta');
     const totalPreguntesElem = document.getElementById('total-preguntes');
     const temaPreguntaElem = document.getElementById('tema-pregunta');
 
     let preguntes = [];
     let preguntaActualIndex = 0;
     let puntuacio = 0;
-
+let puntsDificultat=0;
+let puntsDificultatObtinguts=0;
     async function carregarPreguntes() {
         try {
             const response = await fetch('preguntes.json');
@@ -45,10 +48,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function mostrarPregunta() {
         feedbackElem.textContent = '';
+        feedbackerror.textContent='';
         const preguntaActual = preguntes[preguntaActualIndex];
 
         preguntaActualNumElem.textContent = preguntaActualIndex + 1;
         temaPreguntaElem.textContent = preguntaActual.tema;
+        dificultatPreguntaElem.textContent=preguntaActual.dificultat;
         preguntaTextElem.textContent = preguntaActual.pregunta;
 
         if (preguntaActual.imatge_url) {
@@ -75,15 +80,18 @@ document.addEventListener('DOMContentLoaded', () => {
     function seleccionarResposta(indexSeleccionat, indexCorrecte) {
         const opcionsButtons = opcionsContainerElem.querySelectorAll('.opcio-btn');
         opcionsButtons.forEach(btn => btn.disabled = true); // Desactivar tots els botons
-
+ puntsDificultat+=preguntes[preguntaActualIndex].dificultat;
         if (indexSeleccionat === indexCorrecte) {
             puntuacio++;
+           puntsDificultatObtinguts+=preguntes[preguntaActualIndex].dificultat;
             feedbackElem.textContent = "Correcte!";
             feedbackElem.style.color = '#28a745';
             opcionsButtons[indexSeleccionat].classList.add('correcte');
         } else {
-            feedbackElem.textContent = `Incorrecte. La resposta correcta era: ${preguntes[preguntaActualIndex].opcions[indexCorrecte]}`;
+            feedbackElem.textContent = `Incorrecte.La resposta correcte es : ${preguntes[preguntaActualIndex].opcions[indexCorrecte]}` ;
             feedbackElem.style.color = '#dc3545';
+            feedbackerror.textContent=`Explicacio: ${preguntes[preguntaActualIndex].explicacio}` ;
+            feedbackerror.style.color='#28a745';
             opcionsButtons[indexSeleccionat].classList.add('incorrecte');
             opcionsButtons[indexCorrecte].classList.add('correcte'); // Mostrar la correcta
         }
@@ -105,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         preguntaSeccioElem.classList.add('ocult');
         resultatsContainerElem.classList.remove('ocult');
 
-        puntuacioFinalElem.textContent = `Has encertat ${puntuacio} de ${preguntes.length} preguntes.`;
+        puntuacioFinalElem.innerHTML = `Has encertat ${puntuacio} de ${preguntes.length} preguntes. <br> La teva puntuaciò es: ${puntsDificultatObtinguts} punts de ${puntsDificultat} possibles.`;
 
         let missatge = '';
         const percentatge = (puntuacio / preguntes.length) * 100;
