@@ -1,323 +1,202 @@
 [
     {
         "id": 1,
-        "tema": "Matemàtiques",
-        "pregunta": "Si un tren viatja a 60 km/h, quina distància recorrerà en 2 hores i 30 minuts?",
-        "opcions": ["120 km", "150 km", "180 km", "100 km"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Lògica simbòlica",
+    "pregunta": "Si: a△b = (a × b) + (a - b), calcula 7△5",
+    "opcions": ["33", "37", "40", "45"],
+    "resposta_correcta": 1,
+    "explicacio": "Patró clar: (7×5) + (7-5) = 35 + 2 = 37",
+    "dificultat": 3
     },
     {
         "id": 2,
-        "tema": "Llenguatge",
-        "pregunta": "Quin és l'antònim de la paraula 'efímer'?",
-        "opcions": ["Breu", "Passatger", "Perdurable", "Instantani"],
+        "tema": "Matemàtiques avançades",
+        "pregunta": "Quin és el següent nombre primer després de 37?",
+        "opcions": ["38", "39", "41", "43"],
         "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio": "La seqüència de nombres primers és 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41...",
+        "dificultat": 3
     },
     {
         "id": 3,
-        "tema": "Lògica",
-        "pregunta": "Si tots els gats tenen cua i en Mixu és un gat, aleshores:",
-        "opcions": ["En Mixu potser no té cua", "En Mixu segur que té cua", "Alguns gats no tenen cua", "En Mixu és un gos"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Raonament abstracte",
+        "pregunta": "Si totes les Brins són Drons i alguns Drons són Frins, llavors:",
+        "opcions": [
+            "Totes les Brins són Frins",
+            "Algunes Brins són Frins",
+            "Cap Brin és Frin",
+            "No es pot assegurar cap de les anteriors"
+        ],
+        "resposta_correcta": 3,
+        "explicacio": "La relació entre Brins i Frins no està definida per les premisses donades.",
+        "dificultat": 4
     },
     {
         "id": 4,
-        "tema": "Lògica Visual (sense imatge)",
-        "pregunta": "Imagina una sèrie: un cercle, un quadrat, un cercle, un quadrat. Quina figura seguiria?",
-        "opcions": ["Un triangle", "Un cercle", "Un quadrat", "Un rectangle"],
+        "tema": "Sèries complexes",
+        "pregunta": "Completeu la sèrie: 1, 4, 9, 16, 25, 36, ?",
+        "opcions": ["42", "49", "56", "64"],
         "resposta_correcta": 1,
-        "imatge_url": null
+        "explicacio": "Sèrie de quadrats perfectes: 1², 2², 3², 4², 5², 6², 7²=49",
+        "dificultat": 2
     },
     {
         "id": 5,
-        "tema": "Coneixement General",
-        "pregunta": "Quina és la capital de França?",
-        "opcions": ["Berlín", "Londres", "París", "Roma"],
+        "tema": "Lògica simbòlica",
+        "pregunta": "Si ★ + ★★ + ★★★ = ◇◇◇ i ★ + ★ = ◇◇, llavors ★ + ◇ = ?",
+        "opcions": ["★◇", "◇★", "★★★", "◇◇◇"],
         "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio": "Resolent el sistema: ★=2, ◇=3, per tant ★+◇=5 que correspon a ★★★ (2+3=5)",
+        "dificultat": 5
     },
     {
         "id": 6,
-        "tema": "Matemàtiques",
-        "pregunta": "Quin número segueix la seqüència: 2, 4, 8, 16, ...?",
-        "opcions": ["20", "24", "32", "64"],
-        "resposta_correcta": 2,
-        "imatge_url": null
+        "tema": "Geometria avançada",
+        "pregunta": "Quants costats té un polígon regular amb angles interiors de 150° cada un?",
+        "opcions": ["10", "12", "15", "18"],
+        "resposta_correcta": 1,
+        "explicacio": "Fórmula: (n-2)×180°/n = 150° → n=12",
+        "dificultat": 4
     },
     {
         "id": 7,
-        "tema": "Llenguatge",
-        "pregunta": "La paraula 'casa' és un:",
-        "opcions": ["Verb", "Adjectiu", "Substantiu", "Adverbi"],
+        "tema": "Probabilitat",
+        "pregunta": "Quina és la probabilitat d'obtenir dos 6 en llançar dos daus?",
+        "opcions": ["1/6", "1/12", "1/36", "1/18"],
         "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio": "(1/6) × (1/6) = 1/36",
+        "dificultat": 3
     },
     {
         "id": 8,
-        "tema": "Lògica",
-        "pregunta": "Un pagès té 17 ovelles. Totes menys 9 moren. Quantes ovelles vives li queden?",
-        "opcions": ["8", "9", "17", "26"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Analogies complexes",
+        "pregunta": "Llibre : Biblioteca :: Planeta : ?",
+        "opcions": ["Univers", "Galàxia", "Sistema Solar", "Via Làctia"],
+        "resposta_correcta": 0,
+        "explicacio": "Un llibre és una unitat d'una biblioteca, com un planeta ho és de l'univers.",
+        "dificultat": 3
     },
     {
         "id": 9,
-        "tema": "Raonament Abstracte (sense imatge)",
-        "pregunta": "Si tots els 'blips' són 'blops' i alguns 'blops' són 'blups', podem afirmar que tots els 'blips' són 'blups'?",
-        "opcions": ["Sí, sempre", "No, mai", "Potser, de vegades", "No té sentit"],
-        "resposta_correcta": 2,
-        "imatge_url": null
+        "tema": "Matrius lògiques",
+        "pregunta": "Quina figura completa la matriu?\n[□, △, ○]\n[△, ○, □]\n[○, □, ?]",
+        "opcions": ["□", "△", "○", "☆"],
+        "resposta_correcta": 1,
+        "explicacio": "Patró diagonal: les figures es repeteixen en diagonals descendents.",
+        "dificultat": 4
     },
     {
         "id": 10,
-        "tema": "Matemàtiques",
-        "pregunta": "Si 5 gats cacen 5 ratolins en 5 minuts, quants gats es necessiten per caçar 100 ratolins en 100 minuts?",
-        "opcions": ["100 gats", "50 gats", "10 gats", "5 gats"],
-        "resposta_correcta": 3,
-        "imatge_url": null
+        "tema": "Combinatòria",
+        "pregunta": "De quantes maneres diferents es poden ordenar les lletres de la paraula 'LLET'?",
+        "opcions": ["12", "24", "6", "8"],
+        "resposta_correcta": 0,
+        "explicacio": "4! / 2! = 24 / 2 = 12 (per la repetició de la L)",
+        "dificultat": 4
     },
     {
         "id": 11,
-        "tema": "Llenguatge",
-        "pregunta": "Què significa l'expressió 'fer mans i mànigues'?",
-        "opcions": ["Treballar poc", "Esforçar-se molt", "Rentar-se les mans", "Cosir roba"],
+        "tema": "Lògica temporal",
+        "pregunta": "Si són les 15:45, quina hora serà quan el minutger superi l'agraria en 90°?",
+        "opcions": ["16:00", "16:15", "16:30", "16:45"],
         "resposta_correcta": 1,
-        "imatge_url": null
+        "explicacio": "Els punteres es creuen cada 65+5/11 minuts. La propera vegada que hi haurà 90° de diferència serà a les 16:15.",
+        "dificultat": 5
     },
     {
         "id": 12,
-        "tema": "Lògica",
-        "pregunta": "En una cursa, avances el segon. En quina posició quedes?",
-        "opcions": ["Primer", "Segon", "Tercer", "Últim"],
+        "tema": "Sistemes numèrics",
+        "pregunta": "Quin és el resultat de 1011 (binari) + 1101 (binari)?",
+        "opcions": ["101000", "11000", "10100", "11100"],
         "resposta_correcta": 1,
-        "imatge_url": null
+        "explicacio": "1011 (11) + 1101 (13) = 11000 (24)",
+        "dificultat": 3
     },
     {
         "id": 13,
-        "tema": "Coneixement General",
-        "pregunta": "Quants dies té un any de traspàs?",
-        "opcions": ["364", "365", "366", "360"],
+        "tema": "Raonament Espacial (imagina la figura)",
+        "pregunta": "Un cub individual té 6 cares. Si unim 3 d'aquests cubs, enganxant-los cara amb cara per formar una única peça sòlida, quantes cares externes visibles tindrà la figura resultant?",
+        "opcions": [
+            "18 cares",
+            "16 cares",
+            "14 cares",
+            "12 cares"
+        ],
         "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio":"En unir 3 cubs,es perden 4 cares (2 per el cub central i 1 per cada cub lateral), 18 cares inicials - 4 cares perdudes = 14 cares visibles.",
+        "dificultat": 4
     },
     {
         "id": 14,
-        "tema": "Matemàtiques",
-        "pregunta": "Un llibre costa 20€. Si té un descompte del 25%, quin és el preu final?",
-        "opcions": ["10€", "15€", "18€", "5€"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Lògica verbal",
+        "pregunta": "Si '234' significa 'flor bonica', '456' significa 'rosa vermella' i '345' significa 'bonica rosa', quina xifra significa 'vermella'?",
+        "opcions": ["2", "4", "5", "6"],
+        "resposta_correcta": 3,
+        "explicacio": "Anàlisi comparatiu: '4'=rosa, '5'=bonica, per tant '6'=vermella",
+        "dificultat": 4
     },
     {
         "id": 15,
-        "tema": "Llenguatge",
-        "pregunta": "Com s'anomena una persona que estudia els insectes?",
-        "opcions": ["Ornitòleg", "Geòleg", "Entomòleg", "Biòleg"],
+        "tema": "Física conceptual",
+        "pregunta": "Si un objecte es mou a velocitat constant en línia recta en l'espai interestel·lar, quina força actua sobre ell?",
+        "opcions": [
+            "La gravetat",
+            "La força d'inèrcia",
+            "Cap força neta",
+            "La resistència de l'aire"
+        ],
         "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio": "Segons la primera llei de Newton, un objecte en moviment romandrà en moviment a menys que actuï una força neta sobre ell.",
+        "dificultat": 3
     },
     {
         "id": 16,
-        "tema": "Lògica",
-        "pregunta": "Si ahir va ser dilluns, quin dia serà demà passat?",
-        "opcions": ["Dimecres", "Dijous", "Dimarts", "Divendres"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Criptoaritmètica",
+        "pregunta": "Si AA + BB = CBC, on cada lletra representa un dígit diferent, quin és el valor de C?",
+        "opcions": ["1", "2", "3", "4"],
+        "resposta_correcta": 0,
+        "explicacio": "L'única solució possible és A=9, B=2, C=1 (99 + 22 = 121)",
+        "dificultat": 5
     },
     {
         "id": 17,
-        "tema": "Raonament Espacial (sense imatge)",
-        "pregunta": "Imagina un cub. Si el pintes de blau per fora i després el talles en 27 cubs més petits iguals, quants dels cubs petits tindran només una cara pintada de blau?",
-        "opcions": ["4", "6", "8", "12"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Teoria de conjunts",
+        "pregunta": "En un grup de 100 persones, 70 parlen català, 45 parlen castellà i 15 parlen ambdós idiomes. Quantes no parlen cap d'aquests dos idiomes?",
+        "opcions": ["0", "5", "10", "15"],
+        "resposta_correcta": 0,
+        "explicacio": "70 + 45 - 15 = 100, per tant totes les persones parlen almenys un idiome.",
+        "dificultat": 3
     },
     {
         "id": 18,
-        "tema": "Matemàtiques",
-        "pregunta": "Quina fracció és equivalent a 0.5?",
-        "opcions": ["1/4", "1/2", "3/4", "2/5"],
-        "resposta_correcta": 1,
-        "imatge_url": null
+        "tema": "Lògica filosòfica",
+        "pregunta": "Si la frase 'Aquesta frase és falsa' és certa, llavors:",
+        "opcions": [
+            "És una paradoxa lògica",
+            "La frase és verdadera",
+            "La frase és falsa",
+            "No té sentit"
+        ],
+        "resposta_correcta": 0,
+        "explicacio": "És la paradoxa del mentider, una contradicció lògica.",
+        "dificultat": 4
     },
     {
         "id": 19,
-        "tema": "Llenguatge",
-        "pregunta": "Quina d'aquestes paraules està mal escrita?",
-        "opcions": ["Consciència", "Existència", "Excepsional", "Impressió"],
+        "tema": "Topologia",
+        "pregunta": "Quants colors es necessiten com a mínim per a pintar un mapa de manera que no hi hagi dues regions adjacents amb el mateix color?",
+        "opcions": ["2", "3", "4", "5"],
         "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio": "El teorema dels quatre colors estableix que quatre colors són suficients.",
+        "dificultat": 4
     },
     {
         "id": 20,
-        "tema": "Lògica",
-        "pregunta": "Què pesa més, un quilo de plomes o un quilo de ferro?",
-        "opcions": ["El ferro", "Les plomes", "Pesen el mateix", "Depèn del volum"],
-        "resposta_correcta": 2,
-        "imatge_url": null
-    },
-    {
-        "id": 21,
-        "tema": "Matemàtiques",
-        "pregunta": "Quant és 15 x 3 - 5?",
-        "opcions": ["30", "35", "40", "45"],
-        "resposta_correcta": 2,
-        "imatge_url": null
-    },
-    {
-        "id": 22,
-        "tema": "Llenguatge",
-        "pregunta": "Quin d'aquests mots és un anagrama de 'ROMA'?",
-        "opcions": ["AMOR", "RAMO", "MORA", "Totes les anteriors són anagrames"],
-        "resposta_correcta": 3,
-        "imatge_url": null
-    },
-    {
-        "id": 23,
-        "tema": "Lògica",
-        "pregunta": "Quin element no pertany al grup: Poma, Taronja, Plàtan, Cadira?",
-        "opcions": ["Poma", "Taronja", "Plàtan", "Cadira"],
-        "resposta_correcta": 3,
-        "imatge_url": null
-    },
-    {
-        "id": 24,
-        "tema": "Coneixement General",
-        "pregunta": "Quin gas és essencial per a la respiració humana?",
-        "opcions": ["Nitrogen", "Oxigen", "Diòxid de Carboni", "Heli"],
+        "tema": "Lògica matemàtica",
+        "pregunta": "Quin és el valor de x en l'equació: 2^(x+3) = 16^(x-1)?",
+        "opcions": ["1", "5/3", "2", "7/3"],
         "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 25,
-        "tema": "Matemàtiques",
-        "pregunta": "Quina xifra continua la sèrie: 1, 1, 2, 3, 5, 8, ...?",
-        "opcions": ["10", "11", "12", "13"],
-        "resposta_correcta": 3,
-        "imatge_url": null
-    },
-    {
-        "id": 26,
-        "tema": "Llenguatge",
-        "pregunta": "Com acaba el refrany: 'A qui matina, ...'?",
-        "opcions": ["...se li fa tard.", "...Déu l'ajuda.", "...troba feina.", "...dorm poc."],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 27,
-        "tema": "Lògica",
-        "pregunta": "La Maria és més alta que en Joan. En Joan és més alt que en Pere. Qui és el més baix?",
-        "opcions": ["Maria", "Joan", "Pere", "No es pot saber"],
-        "resposta_correcta": 2,
-        "imatge_url": null
-    },
-    {
-        "id": 28,
-        "tema": "Coneixement General",
-        "pregunta": "Quin és el riu més llarg del món?",
-        "opcions": ["Amazones", "Nil", "Mississipí", "Iang-Tsé"],
-        "resposta_correcta": 0,
-        "imatge_url": null
-    },
-    {
-        "id": 29,
-        "tema": "Matemàtiques",
-        "pregunta": "Quants costats té un hexàgon?",
-        "opcions": ["4", "5", "6", "8"],
-        "resposta_correcta": 2,
-        "imatge_url": null
-    },
-    {
-        "id": 30,
-        "tema": "Llenguatge",
-        "pregunta": "Quina paraula està escrita correctament?",
-        "opcions": ["Examen", "Exàmen", "Ecsamen", "Egzamen"],
-        "resposta_correcta": 0,
-        "imatge_url": null
-    },
-    {
-        "id": 31,
-        "tema": "Lògica",
-        "pregunta": "Si demà passat és divendres, quin dia va ser ahir?",
-        "opcions": ["Dilluns", "Dimarts", "Dimecres", "Diumenge"],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 32,
-        "tema": "Coneixement General",
-        "pregunta": "En quin any va començar la Primera Guerra Mundial?",
-        "opcions": ["1905", "1914", "1918", "1939"],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 33,
-        "tema": "Matemàtiques",
-        "pregunta": "Un cotxe recorre 100km en 2 hores. Quina és la seva velocitat mitjana?",
-        "opcions": ["25 km/h", "50 km/h", "100 km/h", "200 km/h"],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 34,
-        "tema": "Llenguatge",
-        "pregunta": "Quina d'aquestes paraules és un palíndrom ?",
-        "opcions": ["CASA", "RADAR", "AMIC", "COTXE"],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 35,
-        "tema": "Lògica",
-        "pregunta": "Tots els ocells tenen plomes. Un canari és un ocell. Per tant, un canari...",
-        "opcions": ["...potser no té plomes.", "...no té plomes.", "...té plomes.", "...és un mamífer."],
-        "resposta_correcta": 2,
-        "imatge_url": null
-    },
-    {
-        "id": 36,
-        "tema": "Raonament Espacial (sense imatge)",
-        "pregunta": "Si un cub té 6 cares, quantes cares tindran 3 cubs units?",
-        "opcions": ["6", "12", "14", "18"],
-        "resposta_correcta": 2,
-        "imatge_url": null
-    },
-    {
-        "id": 37,
-        "tema": "Matemàtiques",
-        "pregunta": "Quin és el resultat de 100 - 25 x 2?",
-        "opcions": ["50", "75", "70", "150"],
-        "resposta_correcta": 0,
-        "imatge_url": null
-    },
-    {
-        "id": 38,
-        "tema": "Llenguatge",
-        "pregunta": "Quina d'aquestes paraules és un sinònim de 'alegre'?",
-        "opcions": ["Trist", "Feliç", "Enutjat", "Sorpresa"],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 39,
-        "tema": "Lògica",
-        "pregunta": "Si tots els estudiants són intel·ligents i la Paula és estudiant, aleshores:",
-        "opcions": ["La Paula no és intel·ligent", "La Paula és intel·ligent", "Alguns estudiants no són intel·ligents", "La Paula és professora"],
-        "resposta_correcta": 1,
-        "imatge_url": null
-    },
-    {
-        "id": 40,
-        "tema": "Coneixement General",
-        "pregunta": "Quina és la moneda oficial del Japó?",
-        "opcions": ["Dòlar", "Euro", "Ien", "Won"],
-        "resposta_correcta": 2,
-        "imatge_url": null
+        "explicacio": "16 = 2^4 → 2^(x+3) = (2^4)^(x-1) → x+3 = 4x-4 → x=5/3",
+        "dificultat": 5
     }
-
 ]
