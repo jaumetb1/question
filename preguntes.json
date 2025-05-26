@@ -283,8 +283,8 @@
         "id": 36,
         "tema": "Raonament Espacial (sense imatge)",
         "pregunta": "Si un cub té 6 cares, quantes cares tindran 3 cubs units?",
-        "opcions": ["6", "9", "12", "18"],
-        "resposta_correcta": 2,
+        "opcions": ["6", "12", "14", "18"],
+        "resposta_correcta": 3,
         "imatge_url": null
     },
     {
