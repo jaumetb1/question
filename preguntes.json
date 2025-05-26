@@ -284,15 +284,15 @@
         "tema": "Raonament Espacial (sense imatge)",
         "pregunta": "Si un cub té 6 cares, quantes cares tindran 3 cubs units?",
         "opcions": ["6", "12", "14", "18"],
-        "resposta_correcta": 3,
+        "resposta_correcta": 2,
         "imatge_url": null
     },
     {
         "id": 37,
         "tema": "Matemàtiques",
         "pregunta": "Quin és el resultat de 100 - 25 x 2?",
-        "opcions": ["50", "75", "70", "80"],
-        "resposta_correcta": 1,
+        "opcions": ["50", "75", "70", "150"],
+        "resposta_correcta": 0,
         "imatge_url": null
     },
     {
