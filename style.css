@@ -96,6 +96,12 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
+#feedbackerror {
+    margin-top: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
 
 #seguent-btn {
     display: block;
@@ -152,3 +158,5 @@ h1 {
 .ocult {
     display: none !important;
 }
+span{font-size: large;
+    color:#007bff;}
